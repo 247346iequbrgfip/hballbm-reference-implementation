@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Medical imaging & data files
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.mat
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.npz
+
+# Logs & outputs
+logs/
+outputs/
+results/
