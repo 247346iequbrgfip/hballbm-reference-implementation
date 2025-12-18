@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def compute_group_contribution(
     H,
-    group_dims=(10, 10, 10),
+    group_dims=(64, 16, 16),
 ):
     T, N, D = H.shape
     dI, dC, dG = group_dims
